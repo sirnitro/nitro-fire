@@ -1,0 +1,69 @@
+# === Arduino IDE ===
+*.ino.*
+*.elf
+*.hex
+*.bin
+*.eep
+*.lss
+*.map
+*.o
+*.a
+*.sdf
+*.suo
+*.d
+*.s
+
+/build/
+__pycache__/
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === PlatformIO ===
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+platformio.ini.save
+.idea/
+*.iobj
+*.idb
+
+# === OS / Editor Junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# === Web Frontend ===
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# === PHP/Backend ===
+vendor/
+composer.lock
+*.sqlite
+.env.*
+
+# === Mobile App (React Native / Flutter optional) ===
+android/.gradle/
+ios/Pods/
+*.xcworkspace
+*.xcodeproj
+*.idea/
+*.iml
+
+# === Temporary/Backup Files ===
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+*.old
+*~
+sync.sh
